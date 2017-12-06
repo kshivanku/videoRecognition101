@@ -1,0 +1,336 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok"
+  },
+  "outputs": [
+    {
+      "id": "f67d5b54749e470386a0eebf100b22a6",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2017-12-03T22:17:31.233483002Z",
+      "model": {
+        "id": "aaa03c23b3724a16a56b629203edc62c",
+        "name": "general-v1.3",
+        "created_at": "2016-03-09T17:11:39.608845Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "aa9ca48295b37401f8af92ad1af0d91d",
+          "created_at": "2016-07-13T01:19:12.147644Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "General"
+      },
+      "input": {
+        "id": "fa0f49651875495d80085d4dbceabf4c",
+        "data": {
+          "image": {
+            "url": "https://hips.hearstapps.com/hbu.h-cdn.co/assets/17/03/nina-farmer-kitchen.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_Pf2b7clG",
+            "name": "indoors",
+            "value": 0.9929664,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_c9n7SB25",
+            "name": "furniture",
+            "value": 0.9922706,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_VTlCx2f2",
+            "name": "window",
+            "value": 0.9897151,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_GzMCzJF9",
+            "name": "chair",
+            "value": 0.98862064,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_8LWlDfFD",
+            "name": "table",
+            "value": 0.987655,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_pCnxWJZh",
+            "name": "contemporary",
+            "value": 0.9861047,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_BJP7PBvG",
+            "name": "apartment",
+            "value": 0.9800395,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_lWJnj5XV",
+            "name": "interior design",
+            "value": 0.9748883,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_7Xg5SQRW",
+            "name": "luxury",
+            "value": 0.97166675,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_pPxqdnP5",
+            "name": "room",
+            "value": 0.96844476,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_xxnGcd42",
+            "name": "seat",
+            "value": 0.9680414,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_9Dcdh0PK",
+            "name": "house",
+            "value": 0.9663533,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_j09mzT6j",
+            "name": "family",
+            "value": 0.9224877,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_NjxMQzm9",
+            "name": "cabinet",
+            "value": 0.9163153,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_FWCjC8jZ",
+            "name": "architecture",
+            "value": 0.90309787,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_x3vjxJsW",
+            "name": "home",
+            "value": 0.90253747,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_XfLPtf7R",
+            "name": "sofa",
+            "value": 0.9024368,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_FXxZs1wp",
+            "name": "shelf",
+            "value": 0.8985958,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_3wn3qgw4",
+            "name": "dining room",
+            "value": 0.89209485,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_786Zr311",
+            "name": "no person",
+            "value": 0.8871453,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ],
+  "rawData": {
+    "status": {
+      "code": 10000,
+      "description": "Ok"
+    },
+    "outputs": [
+      {
+        "id": "f67d5b54749e470386a0eebf100b22a6",
+        "status": {
+          "code": 10000,
+          "description": "Ok"
+        },
+        "created_at": "2017-12-03T22:17:31.233483002Z",
+        "model": {
+          "id": "aaa03c23b3724a16a56b629203edc62c",
+          "name": "general-v1.3",
+          "created_at": "2016-03-09T17:11:39.608845Z",
+          "app_id": "main",
+          "output_info": {
+            "message": "Show output_info with: GET /models/{model_id}/output_info",
+            "type": "concept",
+            "type_ext": "concept"
+          },
+          "model_version": {
+            "id": "aa9ca48295b37401f8af92ad1af0d91d",
+            "created_at": "2016-07-13T01:19:12.147644Z",
+            "status": {
+              "code": 21100,
+              "description": "Model trained successfully"
+            }
+          },
+          "display_name": "General"
+        },
+        "input": {
+          "id": "fa0f49651875495d80085d4dbceabf4c",
+          "data": {
+            "image": {
+              "url": "https://hips.hearstapps.com/hbu.h-cdn.co/assets/17/03/nina-farmer-kitchen.jpg"
+            }
+          }
+        },
+        "data": {
+          "concepts": [
+            {
+              "id": "ai_Pf2b7clG",
+              "name": "indoors",
+              "value": 0.9929664,
+              "app_id": "main"
+            },
+            {
+              "id": "ai_c9n7SB25",
+              "name": "furniture",
+              "value": 0.9922706,
+              "app_id": "main"
+            },
+            {
+              "id": "ai_VTlCx2f2",
+              "name": "window",
+              "value": 0.9897151,
+              "app_id": "main"
+            },
+            {
+              "id": "ai_GzMCzJF9",
+              "name": "chair",
+              "value": 0.98862064,
+              "app_id": "main"
+            },
+            {
+              "id": "ai_8LWlDfFD",
+              "name": "table",
+              "value": 0.987655,
+              "app_id": "main"
+            },
+            {
+              "id": "ai_pCnxWJZh",
+              "name": "contemporary",
+              "value": 0.9861047,
+              "app_id": "main"
+            },
+            {
+              "id": "ai_BJP7PBvG",
+              "name": "apartment",
+              "value": 0.9800395,
+              "app_id": "main"
+            },
+            {
+              "id": "ai_lWJnj5XV",
+              "name": "interior design",
+              "value": 0.9748883,
+              "app_id": "main"
+            },
+            {
+              "id": "ai_7Xg5SQRW",
+              "name": "luxury",
+              "value": 0.97166675,
+              "app_id": "main"
+            },
+            {
+              "id": "ai_pPxqdnP5",
+              "name": "room",
+              "value": 0.96844476,
+              "app_id": "main"
+            },
+            {
+              "id": "ai_xxnGcd42",
+              "name": "seat",
+              "value": 0.9680414,
+              "app_id": "main"
+            },
+            {
+              "id": "ai_9Dcdh0PK",
+              "name": "house",
+              "value": 0.9663533,
+              "app_id": "main"
+            },
+            {
+              "id": "ai_j09mzT6j",
+              "name": "family",
+              "value": 0.9224877,
+              "app_id": "main"
+            },
+            {
+              "id": "ai_NjxMQzm9",
+              "name": "cabinet",
+              "value": 0.9163153,
+              "app_id": "main"
+            },
+            {
+              "id": "ai_FWCjC8jZ",
+              "name": "architecture",
+              "value": 0.90309787,
+              "app_id": "main"
+            },
+            {
+              "id": "ai_x3vjxJsW",
+              "name": "home",
+              "value": 0.90253747,
+              "app_id": "main"
+            },
+            {
+              "id": "ai_XfLPtf7R",
+              "name": "sofa",
+              "value": 0.9024368,
+              "app_id": "main"
+            },
+            {
+              "id": "ai_FXxZs1wp",
+              "name": "shelf",
+              "value": 0.8985958,
+              "app_id": "main"
+            },
+            {
+              "id": "ai_3wn3qgw4",
+              "name": "dining room",
+              "value": 0.89209485,
+              "app_id": "main"
+            },
+            {
+              "id": "ai_786Zr311",
+              "name": "no person",
+              "value": 0.8871453,
+              "app_id": "main"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
