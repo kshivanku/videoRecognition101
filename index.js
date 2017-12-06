@@ -1,21 +1,36 @@
-// Require the client
 const Clarifai = require('clarifai');
 const fs = require('fs');
 
-// initialize with your api key. This will also work in your browser via http://browserify.org/
 const app = new Clarifai.App({
  apiKey: 'a709fc8346a34e34853d563efa31daea'
 });
 
-// predict the contents of an image by passing in a url
-app.models.predict(Clarifai.GENERAL_MODEL, 'Avengers.mp4', {video:true}).then(
-  function(response) {
-    var res = JSON.stringify(response, null, 2);
-    fs.writeFile('output.json', res, function(){
-      console.log("response written");
-    });
-  },
-  function(err) {
-    console.error("Error: ", err);
+fs.readFile("Avengers.mp4", {encoding: 'base64'}, function(err, data){
+  if (err) {throw err;}
+  console.log("file converted to base64");
+  console.log(data[0]);
+  var encodedVideo = {
+    base64: data
   }
-);
+  app.models.predict(Clarifai.GENERAL_MODEL, encodedVideo, {video:true})
+  .then(function(response) {
+      console.log("inside predict");
+      var res = JSON.stringify(response, null, 2);
+      fs.writeFile('output.json', res, function(){
+        console.log("response written");
+      });
+    },
+    function(err) {
+      console.log(err.data);
+      var res = JSON.stringify(err.data, null, 2);
+      fs.writeFile('error.json', res, function(){
+        console.log("error written");
+      });
+    }
+  )
+  .catch(function(err){
+      console.log("inside catch");
+      console.log(err);
+    }
+  )
+});

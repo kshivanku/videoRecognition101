@@ -1,0 +1,46 @@
+{
+  "status": {
+    "code": 10020,
+    "description": "Failure"
+  },
+  "outputs": [
+    {
+      "id": "e4a1e5f4219e4e4ba59e0d7ad149b1ae",
+      "status": {
+        "code": 31104,
+        "description": "Input invalid argument",
+        "details": "Base 64 value too large. Max supported base64 size is 10485760MB. Send a smaller file or send a url link."
+      },
+      "created_at": "2017-12-06T02:11:00.903298648Z",
+      "model": {
+        "id": "aaa03c23b3724a16a56b629203edc62c",
+        "name": "general-v1.3",
+        "created_at": "2016-03-09T17:11:39.608845Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "aa9ca48295b37401f8af92ad1af0d91d",
+          "created_at": "2016-07-13T01:19:12.147644Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "General"
+      },
+      "input": {
+        "id": "a0558c5a7970402f821a5409f6b55411",
+        "data": {
+          "video": {
+            "base64": "true"
+          }
+        }
+      },
+      "data": {}
+    }
+  ]
+}
